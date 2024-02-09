@@ -27,6 +27,7 @@ public class EmpController {
 	 * It displays a form to input data, here "command" is a reserved request
 	 * attribute which is used to display object data into form
 	 */
+//testing git
 	@RequestMapping("/empform")
 	public String showform(Model m) {
 		m.addAttribute("command", new Employee());
